@@ -15,7 +15,7 @@ angular.module("app")
 		}
 	}
 
-	baseUrl="http://REPLACEURL/services/products";
+	baseUrl="http://catalog-springboot-user1-catalog.apps.cluster-kio-28a1.kio-28a1.sandbox1859.opentlc.com/services/products";
 
 	factory.getProducts = function() {
 		var deferred = $q.defer();
